@@ -1,5 +1,5 @@
 <h3>PyPassword Generator</h3>
-<br><br>
+<br>
 Confused about making a strong password? Here is the solution!
 <br><br>
 This password generator can create a password which will have letters, special symbols and numbers in a random order, which is very difficult to guess.
