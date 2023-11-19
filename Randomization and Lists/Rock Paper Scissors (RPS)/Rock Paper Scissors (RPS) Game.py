@@ -1,5 +1,6 @@
 # Rock Paper Scissors Game!
 import random
+
 rock = '''
     _______
 ---'   ____)
@@ -31,6 +32,7 @@ game_images = [rock, paper, scissors]
 print("\nWelcome to Rock Paper Scissors Game!")
 
 user_choice = int(input("\nWhat do you choose? Type 0 for Rock, 1 for Paper and 2 for Scissors.\n"))
+
 if user_choice > 3 or user_choice < 0:
     print("Invalid Entry.")
 else:
