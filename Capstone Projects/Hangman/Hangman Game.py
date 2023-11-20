@@ -1,17 +1,16 @@
-# This code/game contains topics like Lists (Modification), Randomization, F-String, If-Else Conditions, 
-# For Loop which is inside If-Else Condition which is also inside a While Loop, importing and creating modules and many more!
 import random
 import os
 from hangman_words import word_list
 from hangman_art import stages, logo
 
+os.system('clear')
 print(logo)
 
-# Randomly choose a word from the word_list and assign it to a variable called chosen_word.
+# Randomly choosing a word from the word_list and assigning it to a variable called chosen_word.
 chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 
-# Testing code
+# Wanna test code? Un-comment the below line.
 # print(f'Pssst, the solution is {chosen_word}.')
 
 # Creating an empty List called display. For each letter in the chosen_word, adding a "_" to 'display'.
@@ -48,6 +47,7 @@ while not end_of_game:
                 if lives == 0:
                     end_of_game = True
                     print("You lose. Try again!")
+                    print(f"Correct word was '{chosen_word}'.")
         else:
             for position in range(0, word_length):
                 letter = chosen_word[position]
