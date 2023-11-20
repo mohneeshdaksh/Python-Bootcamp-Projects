@@ -1,6 +1,6 @@
 ### HANGMAN
+<p><i>Play Hangman, the old school favorite! A word game where the goal is simply to find the missing word or words by guessing letters.</i></p>
 <br>
-<p><i>>Play Hangman, the old school favorite! A word game where the goal is simply to find the missing word or words by guessing letters.</i></p>
 <p>In this capstone project, I have employed the following concepts of Python programming:</p>
 <ul>
 <li>Random and OS module</li>
