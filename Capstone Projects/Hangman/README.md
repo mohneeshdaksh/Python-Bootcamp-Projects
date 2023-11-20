@@ -1,7 +1,12 @@
 ### HANGMAN
 <br>
-<p>Play Hangman, the old school favorite! A word game where the goal is simply to find the missing word or words by guessing letters.</p>
-<p>In this capstone project, I have employed the following topics present in Python programming:</p>
+<p><i>>Play Hangman, the old school favorite! A word game where the goal is simply to find the missing word or words by guessing letters.</i></p>
+<p>In this capstone project, I have employed the following concepts of Python programming:</p>
 <ul>
-<li>Random and OS module use</li>
-<li>len() function to calculate length of a string</li>
+<li>Random and OS module</li>
+<li>len() function</li>
+<li>Lists</li>
+<li>FOR Loop</li>
+<li>WHILE Loop</li>
+<li>Nested If Else conditions</li>
+<li>F String</li>
