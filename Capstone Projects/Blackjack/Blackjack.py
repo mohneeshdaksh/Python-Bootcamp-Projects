@@ -71,7 +71,19 @@ def blackjack():
                 if player_sum > 21:
                     print("You went over. You lose 😤")
                 else:
-                    
+                    pick_next_card = True
+                    while pick_next_card:
+                        another_card = input("Type 'y' to get another card or type 'n' to pass: ")
+                        if another_card == 'y':
+                            your_next_card = random.choice(cards)
+                            player_cards.append(your_next_card)
+                            player_sum += your_next_card
+                            print(f"    Your cards: {player_cards}, current score: {player_sum}")
+                            print(f"    Computer's first card: {computer_cards[0]}")
+                            if player_sum > 21:
+                                pick_next_card = False
+                        else:
+                            pick_next_card = False
 
             else:
                 print("You went over. You lose 😤")
@@ -79,19 +91,7 @@ def blackjack():
             # ask if wants to pick another card
 
 
-        pick_next_card = True
-        while pick_next_card:
-            another_card = input("Type 'y' to get another card or type 'n' to pass: ")
-            if another_card == 'y':
-                your_next_card = random.choice(cards)
-                player_cards.append(your_next_card)
-                player_sum += your_next_card
-                print(f"    Your cards: {player_cards}, current score: {player_sum}")
-                print(f"    Computer's first card: {computer_cards[0]}")
-                if player_sum > 21:
-                    pick_next_card = False
-            else:
-                pick_next_card = False
+
 
         pick_more = True
         while pick_more:
