@@ -65,7 +65,14 @@ def blackjack():
                 for value in player_cards:
                     if player_cards[value] == 11:
                         player_cards[value] = 1
-                        
+                player_sum = 0
+                for item in player_cards:
+                    player_sum += item
+                if player_sum > 21:
+                    print("You went over. You lose 😤")
+                else:
+                    
+
             else:
                 print("You went over. You lose 😤")
         else:
