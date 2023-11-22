@@ -7,3 +7,8 @@ The concepts I used in developing this capstone project are as follows:
 <li>Functions</li>
 <li>Random Module</li>
 <li>If Else conditions</li>
+<li>List item append and remove function</li>
+<li>FOR Loop</li>
+<li>WHILE Loop</li>
+<li>Sum Function</li>
+<li>F String</li>
