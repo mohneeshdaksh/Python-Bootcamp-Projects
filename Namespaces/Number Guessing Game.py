@@ -1,3 +1,4 @@
+# Number Guessing Game!
 import random
 import art
 
@@ -7,9 +8,11 @@ print("Welcome to the Number Guessing Game!")
 print("I'm thinking of a number between 1 and 100.")
 CHOSEN_NUMBER = random.randint(1,100)
 
+
 def guess_again(attempts):
     if attempts != 0:
         print("Guess again.")
+
 
 def game(attempts):
     correct_guess = False
@@ -32,9 +35,9 @@ def game(attempts):
                 print("Too high!")
                 guess_again(attempts)
 
-        
 
 difficulty = input("Choose a difficulty. Type 'easy' or 'hard': ").lower()
+
 if difficulty == "easy":
     attempts_present = 10
     game(attempts=attempts_present)
