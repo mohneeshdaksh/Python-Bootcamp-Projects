@@ -1,6 +1,6 @@
 ### BLACKJACK 
 <br>
-<p><i>Widely played casino game whose object is to be dealt cards having a higher count than those of the dealer, up to but not exceeding 21</i></p>
+<p><i>Widely played casino game!</i></p>
 <br>
 The concepts I used in developing this capstone project are as follows:
 <ul>
