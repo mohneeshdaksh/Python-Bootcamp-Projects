@@ -1,11 +1,11 @@
-#Would you like to know whether you're overweight or not? Let's calculate!
+# BMI Calculator
 
 print("Welcome to the Body Mass Index (BMI) Calculator!")
 
 weight = float(input("Please enter your weight in kilograms (kgs): "))
 height = float(input("Now enter your height in meters (m): "))
-#To calculate BMI, we only need the above two values. BMI = weight (kgs) / height^2 (m^2)
 
+# To calculate BMI, we only need the above two values. BMI = weight (kgs) / height^2 (m^2)
 BMI = weight / height**2
 
 if BMI < 18.5:
