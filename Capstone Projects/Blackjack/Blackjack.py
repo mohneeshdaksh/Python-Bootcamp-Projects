@@ -6,14 +6,14 @@ from art import logo
 
 
 def deal_card():
-    """Returns a random card from the deck."""
+    '''Returns a random card from the deck.'''
     deck = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
     card = random.choice(deck)
     return card
 
 
 def result(player_total, dealer_total):
-    """Print the final game result."""
+    '''Print the final game result.'''
     if player_total < 22 and dealer_total < 22:
         if player_total == dealer_total:
             print("Draw 🙃")
@@ -32,22 +32,23 @@ def result(player_total, dealer_total):
 
 
 def blackjack():
+    '''Compute the main algorithm of the Blacjack game. No input is required for this function.'''
     os.system('clear')
     print(logo)
-    
+
     player_cards = []
     computer_cards = []
-    
+
     # Drawing two random cards from a deck for both
     for _ in range(2):
         player_cards.append(deal_card())
         computer_cards.append(deal_card())
-    
+
     go_on = True
     while go_on:
         player_sum = sum(player_cards)
         computer_sum = sum(computer_cards)
-        
+
         print(f"    Your cards: {player_cards}, current score: {player_sum}")
         print(f"    Computer's first card: {computer_cards[0]}")
 
@@ -72,7 +73,7 @@ def blackjack():
                     player_cards.append(deal_card())
                 else:
                     go_on = False
-    
+
     computer_turn = True
     while computer_turn:
         if computer_sum < 17:
