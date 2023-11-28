@@ -1,7 +1,10 @@
+# Higher Lower Game
+
 from random import choice
 from GameData import data
 from art import logo, vs
 import os
+
 
 def score_count(score):
     if score != 0:
