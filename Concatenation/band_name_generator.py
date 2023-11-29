@@ -1,6 +1,5 @@
 '''Band Name Generator'''
 # A basic python code providing knowledge of string concatenation in Python.
-# This program suggests a personalized band name for you! Hope you like it!
 
 print("\nHi there! Welcome to the Band Name Generator.\n")
 city_name = input("Name the city you grew up in!\n")
