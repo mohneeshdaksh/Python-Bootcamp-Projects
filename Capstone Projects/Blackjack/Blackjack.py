@@ -1,4 +1,4 @@
-# BlackJack Game
+'''BlackJack Game'''
 
 import random
 import os
