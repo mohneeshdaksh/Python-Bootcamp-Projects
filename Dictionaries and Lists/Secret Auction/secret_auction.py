@@ -23,10 +23,9 @@ while other_bidder:
         os.system('clear')
 
 highest_bid = 0
-for key in secret_action_database:
-    bid_value = secret_action_database[key]
-    if bid_value > highest_bid:
-        highest_bid = bid_value
+for key, value in secret_action_database.items():
+    if value > highest_bid:
+        highest_bid = value
         winner = key
 
 print(f"\nThe winner is {winner} with a bid of ${highest_bid}!")
