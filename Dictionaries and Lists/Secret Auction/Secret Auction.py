@@ -28,4 +28,4 @@ for key in secret_action_database:
         winner = key
 
 print(f"\nThe winner is {winner} with a bid of ${highest_bid}!")
-print(f"\nRevealing the list of all bidders ('Name', Bid Amount):\n{secret_action_database.items()}\n")
+print(f"\nBidders ('Name', Bid Amount):\n{secret_action_database.items()}\n")
