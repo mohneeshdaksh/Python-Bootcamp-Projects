@@ -1,3 +1,4 @@
+'''Secret Auction'''
 import os
 from art import logo
 
@@ -7,6 +8,7 @@ print("Welcome to the Secret Auction Program!")
 secret_action_database = {}
 
 def bidder_data(person_name, bid_amount):
+    '''Creates a dictionary with person name as key and bid amount as value.'''
     secret_action_database[person_name] = bid_amount
 
 other_bidder = True
