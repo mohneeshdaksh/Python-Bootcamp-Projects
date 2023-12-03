@@ -1,4 +1,4 @@
-# Calculator
+'''Calculator'''
 from art import logo
 import os
 
