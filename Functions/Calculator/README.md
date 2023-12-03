@@ -1,2 +1,2 @@
 ### Calculator
-<br>
+<br>A baic calculator with mostly used operators.</p>
