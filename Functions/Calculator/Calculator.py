@@ -1,6 +1,7 @@
 '''Calculator'''
-from art import logo
+
 import os
+from art import logo
 
 # Addition
 def add(n1, n2):
@@ -14,10 +15,12 @@ def subtract(n1, n2):
 
 # Multiplication
 def multiply(n1, n2):
+    '''Multiply two numbers.'''
     return n1 * n2
 
 # Division
 def divide(n1, n2):
+    '''Divide first number by second number.'''
     return n1 / n2
 
 operations = {
@@ -28,6 +31,7 @@ operations = {
 }
 
 def calculator():
+    '''Main function for calculator. Input not required.'''
     print(logo)
     first_num = float(input("What's the first number?: "))
     exit = False
