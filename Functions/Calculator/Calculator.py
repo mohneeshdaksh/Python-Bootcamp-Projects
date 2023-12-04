@@ -32,10 +32,12 @@ operations = {
 
 def calculator():
     '''Main function for calculator. Input not required.'''
+
     print(logo)
+
     first_num = float(input("What's the first number?: "))
-    exit = False
-    while not exit:
+    exit_loop = False
+    while not exit_loop:
         for symbol in operations:
             print(symbol)
         operation_symbol = input("Pick an operation: ")
@@ -50,7 +52,7 @@ def calculator():
         if input(f"Type 'y' to continue calculating with {answer}, or type 'n' to start a new calculation.: ") == "y":
             first_num = answer
         else:
-            exit = True
+            exit_loop = True
             os.system('clear')
             calculator()
 
