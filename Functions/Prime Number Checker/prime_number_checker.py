@@ -1,4 +1,6 @@
+'''Prime Number Checker'''
 def prime_checker(number):
+    '''Main function that checks whether the number (input) is prime.'''
     if number > 1:
         count = 0
         for divisor in range(2,number):
