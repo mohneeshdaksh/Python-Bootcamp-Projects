@@ -1,5 +1,4 @@
-# A basic program which uses knowledge of Functions with Outputs and Docstrings.
-
+from art import logo
 def format_name(first_name, last_name):
     """Take a first and last name and format it to return 
     the title case version of the name."""
@@ -10,15 +9,7 @@ def format_name(first_name, last_name):
         formatted_last_name = last_name.title()
         return f"{formatted_first_name} {formatted_last_name}"
 
-print("""
-`... `......     `..   `..               `..                              
-     `..     `.  `..   `..            `..   `..                           
-     `..       `.`. `. `..   `..     `..          `..     `....    `..    
-     `..    `..  `..   `.. `.   `..  `..        `..  `.. `..     `.   `.. 
-     `..    `..  `..   `..`..... `.. `..       `..   `..   `... `..... `..
-     `..    `..  `..   `..`.          `..   `..`..   `..     `..`.        
-     `..    `..   `.. `...  `....       `....    `.. `...`.. `..  `....   
-""")
+print(logo)
 given_name = input("What is your first name?\n")
 family_name = input("Please provide me your last name as well:\n")
 
