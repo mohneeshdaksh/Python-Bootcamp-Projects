@@ -11,7 +11,7 @@ def format_name(first_name, last_name):
 
 print(logo)
 given_name = input("What is your first name?\n")
-family_name = input("Please provide me your last name as well:\n")
+family_name = input("Also, please provide me your last name:\n")
 
 formatted_name = format_name(first_name=given_name, last_name=family_name)
 
