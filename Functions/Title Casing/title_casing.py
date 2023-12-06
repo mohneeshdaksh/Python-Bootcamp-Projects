@@ -5,10 +5,9 @@ def format_name(first_name, last_name):
     the title case version of the name.'''
     if first_name == "" or last_name == "":
         return "Invalid entry!"
-    else:
-        formatted_first_name = first_name.title()
-        formatted_last_name = last_name.title()
-        return f"{formatted_first_name} {formatted_last_name}"
+    formatted_first_name = first_name.title()
+    formatted_last_name = last_name.title()
+    return f"{formatted_first_name} {formatted_last_name}"
 
 print(logo)
 given_name = input("What is your first name?\n")
