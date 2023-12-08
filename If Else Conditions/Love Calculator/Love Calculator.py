@@ -1,5 +1,4 @@
-#Practicing with functions like .upper(), .lower(), .count() and if-elif-else statements having logical operators.
-#Built a love score calculation which is popular between high school astudents. It has very basic calculations.
+# Lobe Calculator
 print("The Love Calculator is calculating your score...")
 name1 = input("What is your name? ")
 name2 = input("What is their name? ")
