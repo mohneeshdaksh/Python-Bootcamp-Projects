@@ -1,3 +1,5 @@
+'''Body Mass Index BMI Calculator'''
+
 print("Welcome to the Body Mass Index (BMI) Calculator!")
 
 weight = float(input("Please enter your weight in kilograms (kgs): "))
