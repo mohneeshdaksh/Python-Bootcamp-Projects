@@ -1,5 +1,11 @@
 # Lobe Calculator
-print("The Love Calculator is calculating your score...")
+
+from art import logo
+
+print(logo)
+
+print("The Love Calculator is calculating your score...\n")
+
 name1 = input("What is your name? ")
 name2 = input("What is their name? ")
 combined_name = (name1 + name2).upper()
