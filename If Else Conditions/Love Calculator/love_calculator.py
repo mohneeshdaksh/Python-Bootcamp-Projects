@@ -16,11 +16,11 @@ u_count = combined_name.count('U')
 e_count = combined_name.count('E')
 score_true = str(t_count + r_count + u_count + e_count)
 
-total_l = combined_name.count('L')
-total_o = combined_name.count('O')
-total_v = combined_name.count('V')
-total_e2 = combined_name.count('E')
-score_love = str(total_l + total_o + total_v +total_e2)
+l_count = combined_name.count('L')
+o_count = combined_name.count('O')
+v_count = combined_name.count('V')
+e_count2 = combined_name.count('E')
+score_love = str(l_count + o_count + v_count + e_count2)
 
 score = int(score_true + score_love)
 
