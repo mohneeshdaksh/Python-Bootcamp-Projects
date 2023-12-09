@@ -1,4 +1,4 @@
-# Lobe Calculator
+'''Love Calculator'''
 
 from art import logo
 
