@@ -1,5 +1,7 @@
 ### Love Calculator
+<br>
 <p><i>Would you like to check your compatibility with your crush/partner? Let's do it!</i></p>
+<br>
 <p>Concepts I used in this program are:
 <ul>
 <li>.upper() to make text upper-case</li>
