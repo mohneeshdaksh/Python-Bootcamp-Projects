@@ -5,4 +5,4 @@
 <ul>
 <li>.upper() to make text upper-case</li>
 <li>.count() to count any specific character in a string</li>
-
+<li>If Else conditions</li>
