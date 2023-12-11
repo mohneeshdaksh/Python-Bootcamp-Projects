@@ -1,5 +1,3 @@
-#This problem touches topics including multiple If-Else statements in Succession and Nested statements
-# without using Logical Operators!
 print("Thank you for choosing Python Pizza Deliveries!")
 size = input("Which size of pizza would you like to have? S, M or L? ")
 add_pepperoni = input("Do you want pepperoni on it? Y or N? ")
