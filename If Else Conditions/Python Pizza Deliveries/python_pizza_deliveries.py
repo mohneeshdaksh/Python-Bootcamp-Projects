@@ -22,8 +22,10 @@ if add_pepperoni == "Y":
         bill += 2
     else:
         bill += 3
+
 if extra_cheese == "Y":
     bill += 1
 else:
     pass
+
 print(f"Your final bill is: ${bill}.")
