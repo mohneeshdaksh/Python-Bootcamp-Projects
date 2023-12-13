@@ -1,3 +1,4 @@
 ### Python Pizza Deliveries
 <br>
-Let's create a pizza for you!
+<p><i>This program assists you in obtaining an estimate for your customized pizza, tailored to your preferences.</i></p>
+
