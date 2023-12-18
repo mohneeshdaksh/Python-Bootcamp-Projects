@@ -1,5 +1,9 @@
 '''Treasure Island'''
+
 from art import logo,treasure_box
+print(logo)
+print(treasure_box)
+
 print("Welcome to the Treasure Island!")
 print("Your mission is to find the treasure!!!")
 direction = (input("Which direction would you like to go? Left or Right? ")).lower()
