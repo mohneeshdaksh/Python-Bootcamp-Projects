@@ -16,6 +16,7 @@ def guess_again(attempts):
 
 
 def game(attempts):
+    '''Main function of Number Guessing Game.'''
     correct_guess = False
     while not correct_guess:
         if attempts == 0:
