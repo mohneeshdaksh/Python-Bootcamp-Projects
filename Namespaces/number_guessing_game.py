@@ -10,6 +10,7 @@ CHOSEN_NUMBER = random.randint(1,100)
 
 
 def guess_again(attempts):
+    '''This function checks whether user can guess again nor not.'''
     if attempts != 0:
         print("Guess again.")
 
