@@ -7,6 +7,7 @@ print(treasure_box)
 print("Welcome to the Treasure Island!")
 print("Your mission is to find the treasure!!!")
 direction = (input("Which direction would you like to go? Left or Right? ")).lower()
+
 if direction == "left":
     swim_wait = (input("Do you want to swim or wait? ")).lower()
     if swim_wait == "wait":
