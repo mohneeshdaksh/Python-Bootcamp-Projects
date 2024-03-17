@@ -1,3 +1,3 @@
-<a href="https://www.icloud.com/iclouddrive/0b1kT6SYz6pUfBPrW4MeQuoAA#CV">
+<a href="https://drive.google.com/file/d/1uIwYi0ThEgiBRauss0J76qZd_xZNXdRH/view?usp=sharing">
 CV
 </a>
