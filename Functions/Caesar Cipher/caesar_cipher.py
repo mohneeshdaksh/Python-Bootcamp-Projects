@@ -11,7 +11,7 @@ alphabet = [
 print(logo)
 
 def caesar(start_text, shift_amount, cipher_direction):
-    '''Main Function for Caesar Cipher. Three inputs are required '''
+    '''Main Function for Caesar Cipher. Three inputs are required.'''
     end_text = ""
     if cipher_direction == "decode":
         shift_amount *= -1
